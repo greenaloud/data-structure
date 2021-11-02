@@ -5,7 +5,10 @@
 #define FALSE		0
 
 #define LIST_LEN	100
-typedef int LData;
+
+#include "Point.h"
+
+typedef Point *LData;
 
 typedef struct __ArrayList
 {
